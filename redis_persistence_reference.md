@@ -2,23 +2,24 @@
 
 ## Overview
 
-Redis is an in-memory data structure store that offers persistence mechanisms to ensure data durability. According to the Redis Wikipedia article, persistence can be achieved through two primary methods.
+Redis typically holds the entire dataset in memory. Persistence in Redis can be achieved through two different methods, as described in the Persistence section of the Redis Wikipedia article.
 
-## Persistence Methods
+## Persistence Approaches
 
-### 1. RDB Snapshotting
+### 1. Snapshotting (RDB)
 
-The dataset is asynchronously transferred from memory to disk at regular intervals as a binary dump, using the Redis RDB Dump File Format. This method provides point-in-time snapshots.
+The dataset is asynchronously transferred from memory to disk at regular intervals as a binary dump, using the Redis RDB Dump File Format. This method provides point-in-time snapshots of the dataset.
 
-### 2. AOF (Append Only File) Journaling
+### 2. Journaling (AOF — Append Only File)
 
-A record of each operation that modifies the dataset is added to an append-only file in a background process. Introduced in Redis version 1.1, this is generally considered the safer approach. Redis can rewrite the append-only file in the background to avoid indefinite growth of the journal.
+A record of each operation that modifies the dataset is added to an append-only file (AOF) in a background process. Redis can rewrite the append-only file in the background to avoid indefinite growth of the journal. Journaling is generally considered the safer approach.
 
-## Default Behavior
+**Journaling was introduced in Redis version 1.1.**
 
-By default, Redis writes data to a file system at least every two seconds. In the case of a complete system failure on default settings, only a few seconds of data will be lost.
+## Default Write Interval
+
+By default, Redis writes data to a file system **at least every two seconds**. More or less robust options are available if needed. In the case of a complete system failure on default settings, only a few seconds of data will be lost.
 
 ## Source
 
-- Wikipedia: Redis - Persistence section
-- Redis official documentation: https://redis.io/about/
+- Wikipedia: Redis — Persistence section (https://en.wikipedia.org/wiki/Redis#Persistence)
