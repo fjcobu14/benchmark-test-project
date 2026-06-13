@@ -1,0 +1,11 @@
+Yosemite Weather Summary - 2024-07-15
+Location: Yosemite National Park, California, USA
+Coordinates: 37.5817, -119.659
+Max Temperature: 23.4°C (74.2°F)
+Min Temperature: 13.5°C (56.2°F)
+Average Temperature: 18.0°C (64.5°F)
+Condition: Moderate or heavy rain shower
+Total Precipitation: 3.2mm
+Average Humidity: 30%
+Max Wind: 9.0 mph
+UV Index: 15.0
