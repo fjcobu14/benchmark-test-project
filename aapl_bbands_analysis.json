@@ -1,0 +1,30 @@
+{
+  "symbol": "AAPL",
+  "interval": "1day",
+  "indicator": "BBANDS",
+  "series_type": "close",
+  "time_period": 20,
+  "sd": 2.0,
+  "ma_type": "SMA",
+  "date_range": "2025-01-06 to 2025-01-08",
+  "values": [
+    {
+      "datetime": "2025-01-08",
+      "upper_band": "259.69518",
+      "middle_band": "249.75100",
+      "lower_band": "239.80682"
+    },
+    {
+      "datetime": "2025-01-07",
+      "upper_band": "259.47089",
+      "middle_band": "249.95350",
+      "lower_band": "240.43612"
+    },
+    {
+      "datetime": "2025-01-06",
+      "upper_band": "259.40332",
+      "middle_band": "249.98500",
+      "lower_band": "240.56668"
+    }
+  ]
+}
