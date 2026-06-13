@@ -1,0 +1,10 @@
+{
+  "desktop_commander_version": "0.2.7",
+  "platform": "linux",
+  "allowed_directories": ["/data"],
+  "monitoring_config_version": "2.1.0",
+  "monitoring_interval_seconds": 60,
+  "total_servers_monitored": 8,
+  "servers_exceeding_thresholds": 3,
+  "config_verification_tool_version": "0.2.7"
+}
