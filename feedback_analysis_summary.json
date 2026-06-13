@@ -1,16 +1,29 @@
 {
-  "source": "Car Dealership Customer Feedback",
-  "record_count": 5,
-  "feedback_types": [
-    "Inquiry",
-    "Complaint",
-    "Praise"
-  ],
-  "vehicle_models_found": [
-    "Explorer",
-    "Fusion",
-    "Escape",
-    "F-150"
-  ],
-  "analysis_note": "First 5 records from Customer Feedback table"
+  "analysis_type": "Customer Feedback Complaint Audit",
+  "records_analyzed": 100,
+  "source_table": "Customer Feedback",
+  "source_base": "Car Dealership (appNe8kuHRHCLMD22)",
+  "complaint_counts_by_vehicle_model": {
+    "Fusion": 7,
+    "Mustang": 5,
+    "F-150": 4,
+    "Escape": 3,
+    "Explorer": 1
+  },
+  "model_with_most_complaints": "Fusion",
+  "max_complaint_count": 7,
+  "data_sources_file_info": {
+    "path": "data_sources.json",
+    "size_in_bytes": 332,
+    "csv_datasets_referenced": [
+      "Barber Shop.csv",
+      "CoinbaseTradeHistory.csv",
+      "Covid 19 impacts on hospitals.csv",
+      "Crime_records.csv",
+      "Pet Care 2023 Weekly Financials.csv",
+      "Top Movies.csv",
+      "fantasy sports.csv",
+      "food and beverage consumption.csv"
+    ]
+  }
 }
