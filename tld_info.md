@@ -1,6 +1,4 @@
-# TLD WHOIS Information
-
-## .com TLD
+# .com TLD WHOIS Information
 
 - **TLD**: COM
 - **Organisation**: VeriSign Global Registry Services
@@ -11,7 +9,7 @@
 - **Whois Server**: whois.verisign-grs.com
 - **Source**: IANA
 
-## .io TLD
+# .io TLD WHOIS Information
 
 - **TLD**: IO
 - **Organisation**: Internet Computer Bureau Limited
@@ -21,3 +19,13 @@
 - **Changed**: 2023-01-18
 - **Whois Server**: whois.nic.io
 - **Source**: IANA
+
+# Socket.IO Project Reference
+
+A notable project using the .io domain is Socket.IO, a library for bidirectional and low-latency communication on every platform.
+
+- **Website**: https://socket.io
+- **GitHub Repository**: https://github.com/socketio/socket.io
+- **Stars**: 63,147
+- **Forks**: 10,133
+- **License**: MIT
