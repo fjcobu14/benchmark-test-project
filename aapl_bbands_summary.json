@@ -1,0 +1,20 @@
+{
+  "analysis_id": "AAPL-BBANDS-2025W01",
+  "source": "twelvedata",
+  "indicator": "BBANDS - Bollinger Bands",
+  "symbol": "AAPL",
+  "exchange": "NASDAQ",
+  "parameters": {
+    "series_type": "close",
+    "time_period": 20,
+    "sd": 2.0,
+    "ma_type": "SMA"
+  },
+  "summary": {
+    "date_range": "2025-01-06 to 2025-01-08",
+    "bandwidth_2025_01_08": "19.88836",
+    "percent_b_note": "position relative to bands"
+  },
+  "data_points_count": 3,
+  "status": "complete"
+}
