@@ -1,0 +1,16 @@
+{
+  "source": "Car Dealership Customer Feedback",
+  "record_count": 5,
+  "feedback_types": [
+    "Inquiry",
+    "Complaint",
+    "Praise"
+  ],
+  "vehicle_models_found": [
+    "Explorer",
+    "Fusion",
+    "Escape",
+    "F-150"
+  ],
+  "analysis_note": "First 5 records from Customer Feedback table"
+}
