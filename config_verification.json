@@ -1,0 +1,10 @@
+{
+  "verified_file": "data_sources.json",
+  "file_size_bytes": 332,
+  "file_permissions": "644",
+  "line_count": 1,
+  "dataset_count": 8,
+  "analysis_module_version": "1.0.0",
+  "tool_version": "0.2.7",
+  "platform": "linux"
+}
