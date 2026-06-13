@@ -1,0 +1,16 @@
+{
+  "datasets": [
+    "Barber Shop.csv",
+    "CoinbaseTradeHistory.csv",
+    "Covid 19 impacts on hospitals.csv",
+    "Crime_records.csv",
+    "Pet Care 2023 Weekly Financials.csv",
+    "Top Movies.csv",
+    "fantasy sports.csv",
+    "food and beverage consumption.csv"
+  ],
+  "analysis_module_version": "1.1.0",
+  "owner": "fjcobu14",
+  "repository": "benchmark-test-project",
+  "last_reviewed": "2024-06-14"
+}
