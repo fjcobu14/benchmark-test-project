@@ -1,0 +1,30 @@
+Note di ricerca sui campeggi di Yosemite
+===================================
+Codice del parco: yose
+Totale aree di campeggio: 15 (prime 10 restituite dall'API)
+
+Campeggi con altitudine (dalle descrizioni del NPS):
+1. Bridalveil Creek Campground - 7,200 ft
+2. Camp 4 Campground - 4,000 ft
+3. Crane Flat Campground - 6,200 ft
+4. Hodgdon Meadow Campground - 4,900 ft
+5. Lower Pines Campground - 4,000 ft
+6. North Pines Campground - 4,000 ft
+7. Campeggio Porcupine Flat - 8,100 ft
+8. Tamarack Flat Campground - 6,300 ft
+9. Tuolumne Horse Campsites - 8,600 ft
+10. Area di campeggio Tuolumne Meadows - 8,000 ft
+
+Distribuzione per altitudine:
+- Valle (<5,000 ft): 4 aree di campeggio
+- Media altitudine (5,000-7,000 ft): 2 aree di campeggio
+- Alta quota (7,000+ ft): 4 aree di campeggio
+- Altitudine media: 6,130 ft
+- Intervallo: da 4,000 ft a 8,600 ft
+
+Qualità dell'aria (da WeatherAPI):
+Indice US EPA: 1 (Buono)
+PM2.5: 2.1 ug/m3
+PM10: 2.9 ug/m3
+CO: 110.0 ug/m3
+O3: 94.0 ug/m3
