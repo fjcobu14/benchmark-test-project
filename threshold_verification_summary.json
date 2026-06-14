@@ -1,0 +1,40 @@
+{
+  "verification_type": "Infrastructure Threshold Violation Summary",
+  "thresholds": {
+    "cpu": 80,
+    "mem": 85,
+    "disk": 90
+  },
+  "servers_exceeding_thresholds": {
+    "SRV-002": {
+      "region": "us-west",
+      "status": "warning",
+      "violations": [
+        "mem (85.1 > 85)",
+        "disk (92.3 > 90)"
+      ]
+    },
+    "SRV-004": {
+      "region": "ap-south",
+      "status": "critical",
+      "violations": [
+        "cpu (92.1 > 80)",
+        "mem (91.3 > 85)"
+      ]
+    },
+    "SRV-007": {
+      "region": "ap-north",
+      "status": "warning",
+      "violations": [
+        "cpu (88.3 > 80)",
+        "disk (94.1 > 90)"
+      ]
+    }
+  },
+  "total_servers_exceeding_thresholds": 3,
+  "source_files": [
+    "monitor_config.json",
+    "server_metrics.csv"
+  ],
+  "verified_against_issue": 14
+}
