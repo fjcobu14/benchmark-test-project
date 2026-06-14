@@ -1,0 +1,6 @@
+EUR/USD BBands Live Verification
+Upper Band (2026-06-14): 1.16904
+Middle Band (2026-06-14): 1.15913
+Lower Band (2026-06-14): 1.14923
+Band Width: 0.01981
+Volatility Trend: Narrowing (band width decreasing from 0.01989 to 0.01981)
